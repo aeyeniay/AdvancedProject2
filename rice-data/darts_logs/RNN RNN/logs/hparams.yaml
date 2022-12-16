@@ -1,0 +1,31 @@
+dropout: 0
+hidden_dim: 20
+input_chunk_length: !!python/object/apply:numpy.core.multiarray.scalar
+- !!python/object/apply:numpy.dtype
+  args:
+  - i8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  DAAAAAAAAAA=
+input_size: 14
+likelihood: null
+lr_scheduler_cls: null
+lr_scheduler_kwargs: null
+name: RNN
+nr_params: 1
+num_layers: 1
+optimizer_cls: !!python/name:torch.optim.adam.Adam ''
+optimizer_kwargs:
+  lr: 0.001
+output_chunk_length: 1
+target_size: 1
